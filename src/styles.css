@@ -135,4 +135,25 @@ main{
     .buttons{
         top: -50px;
     }
+    .text-container{
+        overflow: visible;
+        top: 40px;
+    }
+}
+@media (max-width: 500px){
+    main{
+        max-width: 100%;
+    }
+    .slider-container{
+        padding: 0;
+        right: 0;
+        padding: 50px;
+        width: 90%;
+    }
+    .text-container{
+        width: 90%;
+        overflow: visible;
+        margin-left: 0;
+        left: 15%;
+    }
 }
