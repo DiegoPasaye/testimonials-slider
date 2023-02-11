@@ -93,6 +93,7 @@ main{
     main{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 10%;
     }
     .slider-container{
         right: 0;
